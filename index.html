@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rohit Sharma Image</title>
+  <style>
+    .img-wrap {
+      max-width: 600px;      /* you can change this */
+      margin: 24px auto;
+      text-align: center;
+      font-family: system-ui, Arial, sans-serif;
+    }
+    img {
+      width: 100%;
+      height: auto;          /* keeps aspect ratio */
+      border-radius: 12px;   /* optional styling */
+      display: block;
+    }
+    figcaption {
+      margin-top: 8px;
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <figure class="img-wrap">
+    <!-- Option A: local file in the same folder -->
+    <!-- <img src="rohit-sharma.jpg" alt="Indian cricketer Rohit Sharma playing a cover drive"> -->
+
+    <!-- Option B: direct image URL -->
+    <img src="https://example.com/path/to/rohit-sharma.jpg"
+         alt="Indian cricketer Rohit Sharma playing a cover drive">
+
+    <figcaption>Rohit Sharma</figcaption>
+  </figure>
+</body>
+</html>
